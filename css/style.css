@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url(/8406764.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 300px;
+  color: white;
+}
+.div{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  justify-content: center;
+  /* justify-content: center;
+  margin: 50px;
+  transition: all 0.8s;
+  flex-wrap: wrap; */
+}
+.container2{
+  display: flex;
+}
+.div div {
+  transition: all 0.5s;
+}
+.div div:hover {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+  overflow: hidden;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+div img {
+  width: 180px;
+  height: 180px;
+  margin-top: 20px;
+}
+.conteiner1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.377);
+  width: 300px;
+  margin: 0 auto;
+  margin-top: 30px;
+  padding-top: 20px;
+}
+.conteiner1 input {
+  color: white;
+  background-color: black;
+  border: 2px solid rgb(158, 52, 52);
+  margin: 10px;
+  width: 200px;
+  height: 30px;
+  border-radius: 30px;
+}
+.conteiner1 button {
+  color: white;
+  background-color: black;
+  font-size: 20px;
+  margin-bottom: 20px;
+  padding: 5px 20px;
+  border-radius: 20px;
+  border: 2px solid rgb(158, 52, 52);
+  transition: all 0.3s;
+}
+.conteiner1 button:hover {
+  color: white;
+  background-color: black;
+  font-size: 20px;
+  margin-bottom: 20px;
+  padding: 5px 20px;
+  border-radius: 20px;
+  border: 2px solid rgb(86, 158, 52);
+  transition: all 0.5s;
+  cursor: pointer;
+}
+div h5 {
+  color: black;
+  background-color: rgb(158, 52, 52);
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
